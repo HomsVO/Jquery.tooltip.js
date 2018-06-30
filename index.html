@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jquery.tooltip.js</title>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="jquery.tooltip.js"></script>
+	<style>
+		.tooltip{
+	      position: fixed;
+	      padding: 10px 20px;
+	      border: 1px solid #b3c9ce;
+	      border-radius: 4px;
+	      text-align: center;
+	      font-family: Arial;
+	      font-size: 24px;
+	      color: #0099FF;
+	      background: #fff;
+	      box-shadow: 1px 1px 1px #0099FF;
+			}	
+		#btn,#btn2{
+			background-color: #fff;
+			text-align: center;
+			position: relative;
+			line-height: 100px;
+			font-family: Arial;
+			font-size: 20px;
+			color: #0099FF;
+			cursor: pointer;
+			width: 100px;
+			height: 100px;
+			border: 2px solid #0099FF;
+			border-radius: 15px;
+			margin: 200px auto;
+		}
+		body{
+			background-color: #6666CC;
+		}
+	</style>
+</head>
+<body>
+	<div id="btn">Hover</div>
+	<script>
+	$('#btn').tooltip({position:'bottom',text:'HomsHomsHomsHoms'}).addClass('awdawd');
+	</script>
+</body>
+</html>
